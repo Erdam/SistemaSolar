@@ -1,0 +1,33 @@
+@charset "utf-8";
+:root{
+	/*---------------------------------- C O L O R E S ----------------------------------------------------*/
+	--colorBody:linear-gradient(rgba(0,0,0,1),rgba(150,150,150,.001));
+	--colorSol:radial-gradient(circle, rgba(243, 239, 6, 0.9),rgba(197,194,34,.9),rgba(204,102,0,1));
+	--colorTierra:radial-gradient(circle, rgba(6, 215, 243, 0.9), rgba(34, 145, 197, 0.9), rgba(88, 115, 150, 0.5)) ;
+	--colorLuna:radial-gradient(circle, rgba(189, 200, 202, 0.9), rgba(170, 174, 179, 0.9), rgba(98, 99, 100, 0.5)) ;
+	--brilloSol:2px 0px 128px 15px rgba(255,255,255,.8);
+	
+	/*-------------------------- T A M A Ñ O   Ó R B I T A S ----------------------------------------------------*/
+	--tamanioContenedor:400px;
+	--tamanioOrbitaTierra:300px;
+	--tamanioOrbitaLuna:80px;
+	
+	/*-------------------------- T A M A Ñ O   P L A N E T A S ----------------------------------------------------*/
+	--tamanioSol:100px;
+	--tamanioTierra:30px;
+	--tamanioLuna:12px;
+	
+	/*---------------- D I S T A N C I A   D E S D E   E L  C O N T E N E D O R -------------------------------------*/
+	--distanciaSol:150px;
+	--distanciaOrbitaTierra:50px;
+	--distanciaTierra:28px;
+	--distanciaOrbitaLunaTop:50px;
+	--distanciaOrbitaLunaTop:8px;
+	--distanciaOrbitaLunaRight:2px;
+	--distancianLuna:-25px;
+
+	
+	
+	
+	
+}

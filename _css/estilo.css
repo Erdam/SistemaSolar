@@ -1,0 +1,80 @@
+@charset "utf-8";
+@import url('conf.css');
+
+body{
+	position:relative;
+	height:1200px;
+	background:var(--colorBody);
+}
+
+.contenedor{
+	position:relative;
+	width:var(--tamanioContenedor);/*400px*/
+	height:var(--tamanioContenedor);/*400px*/
+	margin:auto;
+}
+.sol{
+	position:absolute;
+	top:var(--distanciaSol);/*150px*/
+	left:var(--distanciaSol);/*150px*/
+	width:var(--tamanioSol);/*100px*/
+	height:var(--tamanioSol);/*100px*/
+	background:var(--colorSol);
+	box-Shadow:var(--brilloSol);
+	border-radius:50%;
+	
+}
+
+.orbita.tierra{
+	top:var(--distanciaOrbitaTierra);/*50px*/
+	left:var(--distanciaOrbitaTierra);/*50px*/
+	width:var(--tamanioOrbitaTierra);/*300px*/
+	height:var(--tamanioOrbitaTierra);/*300px*/
+	animation: orbita 36.5s linear infinite;
+}
+
+.globo.tierra{
+	top:var(--distanciaTierra);/*28px*/
+	right:var(--distanciaTierra);/*28px*/
+	width:var(--tamanioTierra);/*30px*/
+	height:var(--tamanioTierra);/*30px*/
+	background:var(--colorTierra);
+	
+}
+.orbita.luna{
+	width:var(--tamanioOrbitaLuna);/*80px*/
+	height:var(--tamanioOrbitaLuna);/*80px*/
+	top:var(--distancianLuna);/*-25px*/
+	left:var(--distancianLuna);/*-25px*/
+	animation: orbita 2.7s linear infinite;
+}
+
+.globo.luna{
+	width:var(--tamanioLuna);/*12px*/
+	height:var(--tamanioLuna);/*12px*/
+	top:var(--distanciaOrbitaLunaTop);/*8px*/
+	right:var(--distanciaOrbitaLunaRight);/*2px*/
+	background:var(--colorLuna);
+	
+}
+	
+.globo{
+	position:absolute;
+	border-radius:50%;
+}
+.orbita{
+     position: relative;
+     box-sizing: border-box;
+     border: solid;
+     border-color:  white transparent transparent transparent;
+     border-width: 1px 1px 0 0;
+     border-radius: 50%;
+     transform: rotate(0deg);
+     transform-origin: center;
+	
+}
+@Keyframes orbita{
+	to{
+		transform:rotate(360deg);
+	}
+}
